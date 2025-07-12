@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/docs-site/hexo-tags-embed/issues"
   },
-  "homepage": "https://github.com/docs-site/hexo-tags-embed#readme"
+  "homepage": "https://github.com/docs-site/hexo-tags-embed#readme",
+  "dependencies": {
+    "hexo-util": "^3.3.0"
+  }
 }
