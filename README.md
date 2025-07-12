@@ -23,7 +23,7 @@ TagsEmbed:
   enable: true   # 插件开关
   priority: 5    # 过滤器优先级
   CDN:
-    tags_embed: https://cdn.jsdelivr.net/gh/docs-site/hexo-tags-embed/lib/tag_embed.css
+    tags_embed: https://cdn.jsdelivr.net/gh/docs-site/hexo-tags-embed@latest/lib/tag_embed.css
 ```
 
 ### <font size=3>3. 基本实例</font>
@@ -36,7 +36,16 @@ TagsEmbed:
 {% endfolding %}
 ```
 
+#### <font size=3>3.2 行内文本</font>
 
+```markdown
+这是一个带 {% u 下划线 %} 的文本
+这是一个带 {% emp 着重号 %} 的文本
+这是一个带 {% wavy 波浪线 %} 的文本
+这是一个带 {% del 删除线 %} 的文本
+这是一个键盘样式的文本 {% kbd command %} + {% kbd D %}
+这是一个密码样式的文本：{% psw 密码是没有密码 %}
+```
 
 ## <font size=3>二、小徽章</font>
 

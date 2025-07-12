@@ -12,7 +12,7 @@ hexo.extend.filter.register('after_generate', function (locals) {
   if (!(config && config.enable)) return; /* 配置项未开启，则直接返回，不再加载插件 */
   /* 集体声明配置项 */
   const data = {
-    tags_embed: config.CDN.tags_embed ? urlFor(config.CDN.tags_embed) : 'https://cdn.jsdelivr.net/gh/docs-site/hexo-tags-embed/lib/tag_embed.css'
+    tags_embed: config.CDN.tags_embed ? urlFor(config.CDN.tags_embed) : 'https://cdn.jsdelivr.net/gh/docs-site/hexo-tags-embed@latest/lib/tag_embed.css'
   }
 
   /* head引入资源 */
