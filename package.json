@@ -1,6 +1,6 @@
 {
   "name": "@docs-site/hexo-tags-embed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "苏木自用的标签插件",
   "main": "index.js",
   "scripts": {
