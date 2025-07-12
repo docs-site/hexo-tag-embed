@@ -1,16 +1,16 @@
 {
-  "name": "hexo-tag-embed",
+  "name": "@docs-site/hexo-tags-embed",
   "version": "1.0.0",
   "description": "苏木自用的标签插件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-		"format:check": "prettier . --check",
+    "format:check": "prettier . --check",
     "format:fix": "prettier . --write"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/docs-site/hexo-tag-embed.git"
+    "url": "git+https://github.com/docs-site/hexo-tags-embed.git"
   },
   "keywords": [
     "tag"
@@ -18,7 +18,7 @@
   "author": "sumu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/docs-site/hexo-tag-embed/issues"
+    "url": "https://github.com/docs-site/hexo-tags-embed/issues"
   },
-  "homepage": "https://github.com/docs-site/hexo-tag-embed#readme"
+  "homepage": "https://github.com/docs-site/hexo-tags-embed#readme"
 }
