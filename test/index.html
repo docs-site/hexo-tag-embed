@@ -254,6 +254,38 @@
     </div>
   </div>
   
+  <div class="container">
+    <h1>GitHub卡片测试</h1>
+    <div class="note">
+      测试GitHub用户卡片和仓库卡片样式效果。
+    </div>
+    
+    <div>
+      <h2>用户卡片</h2>
+      <div align="center">
+        <ghcard path="anuraghazra"></ghcard>
+        <ghcard path="anuraghazra" params="theme=vue"></ghcard>
+        <ghcard path="anuraghazra" params="theme=buefy"></ghcard>
+        <ghcard path="anuraghazra" params="theme=solarized-light"></ghcard>
+        <ghcard path="anuraghazra" params="theme=onedark"></ghcard>
+        <ghcard path="anuraghazra" params="theme=algolia"></ghcard>
+        <ghcard path="anuraghazra" params="theme=onedark"></ghcard>
+        <ghcard path="anuraghazra" params="theme=calm"></ghcard>
+      </div>
+      <h2>仓库卡片</h2>
+      <div align="center">
+        <ghcard path="anuraghazra/github-readme-stats"></ghcard>
+        <ghcard path="anuraghazra/github-readme-stats" params="theme=vue"></ghcard>
+        <ghcard path="anuraghazra/github-readme-stats" params="theme=buefy"></ghcard>
+        <ghcard path="anuraghazra/github-readme-stats" params="theme=solarized-light"></ghcard>
+        <ghcard path="anuraghazra/github-readme-stats" params="theme=onedark"></ghcard>
+        <ghcard path="anuraghazra/github-readme-stats" params="theme=algolia"></ghcard>
+        <ghcard path="anuraghazra/github-readme-stats" params="theme=onedark"></ghcard>
+        <ghcard path="anuraghazra/github-readme-stats" params="theme=calm"></ghcard>
+      </div>
+    </div>
+  </div>
+  
   <script>
     function toggleTheme() {
       const html = document.documentElement;
@@ -294,5 +326,7 @@
       }
     }
   </script>
+  
+  <script src="ghcard.js"></script>
 </body>
 </html>

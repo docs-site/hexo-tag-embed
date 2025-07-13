@@ -47,6 +47,29 @@ TagsEmbed:
 这是一个密码样式的文本：{% psw 密码是没有密码 %}
 ```
 
+#### <font size=3>3.3 github卡片 ghcard</font>
+
+```markdown
+{% ghcard anuraghazra %}
+{% ghcard anuraghazra, theme=vue %}
+{% ghcard anuraghazra, theme=buefy %}
+{% ghcard anuraghazra, theme=solarized-light %}
+{% ghcard anuraghazra, theme=onedark %}
+{% ghcard anuraghazra, theme=solarized-dark %} 
+{% ghcard anuraghazra, theme=algolia %}
+{% ghcard anuraghazra, theme=calm %}
+
+
+{% ghcard anuraghazra/github-readme-stats %}
+{% ghcard anuraghazra/github-readme-stats, theme=vue %}
+{% ghcard anuraghazra/github-readme-stats, theme=buefy %}
+{% ghcard anuraghazra/github-readme-stats, theme=solarized-light %}
+{% ghcard anuraghazra/github-readme-stats, theme=onedark %}
+{% ghcard anuraghazra/github-readme-stats, theme=solarized-dark %}
+{% ghcard anuraghazra/github-readme-stats, theme=algolia %}
+{% ghcard anuraghazra/github-readme-stats, theme=calm %}
+```
+
 ## <font size=3>二、小徽章</font>
 
 >- [badgen.net](https://badgen.net/)
